@@ -1,6 +1,6 @@
 # 🏡 Evergreen Estate – Residential Real Estate Website  
 
-**Evergreen Estate** is a dedicated **Residential Property Listing Website** showcasing homes, apartments, condos, and other residential properties available for **sale and rent**. It offers users a smooth experience to explore properties and access detailed information on each listing.
+**Evergreen Estate** is a dedicated **Residential Property Listing Website** showcasing homes, apartments and other residential properties available for **sale and rent**. It offers users a smooth experience to explore properties and access detailed information on each listing.
 
 ## 🌟 Features  
 - **Category Focus**: Only **Residential** properties are featured.  
