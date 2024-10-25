@@ -13,7 +13,9 @@ const Footer = () => {
       </aside>
       <nav>
         <h6 className="footer-title">Contact us</h6>
-        <a className="link link-hover">Extensitonn Pallabi, Mirpur, Dhaka, Bangladesh</a>
+        <a className="link link-hover">
+          Extensitonn Pallabi, Mirpur, Dhaka, Bangladesh
+        </a>
         <a className="link link-hover">+880 1625693202</a>
         <a className="link link-hover">+880 1933028624</a>
         <a className="link link-hover">evergreenestate@gmail.com</a>
@@ -32,6 +34,7 @@ const Footer = () => {
         <a className="link link-hover">Privacy policy</a>
         <a className="link link-hover">Cookie policy</a>
         <a className="link link-hover">FAQ Page</a>
+        <a className="link link-hover">Brand Assets</a>
       </nav>
     </footer>
   );
