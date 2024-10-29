@@ -1,11 +1,43 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
+import { GithubAuthProvider, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
+import auth from "../../firebase/firebase.config";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const googleProvider = new GoogleAuthProvider();
+  const githubProvider = new GithubAuthProvider();
   const location = useLocation();
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
+  const { signIn } = useContext(AuthContext);
+  
+  const handleGoogleSignIn = () => {
+    signInWithPopup(auth, googleProvider)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+
+        // Redirect to home page after successful login
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
+
+  const handleGithubSignIn = () => {
+    signInWithPopup(auth, githubProvider)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+
+        // Redirect to home page after successful login
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  };
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -39,8 +71,15 @@ const Login = () => {
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
           <form onSubmit={handleLogin} className="card-body">
             <div className="form-control">
+              <button onClick={handleGoogleSignIn} className="btn">Sign in with Google</button>
+            </div>
+            <div className="form-control">
+              <button onClick={handleGithubSignIn} className="btn">Sign in with GitHub</button>
+            </div>
+            <p className="text-center">Or</p>
+            <div className="form-control">
               <div>
-                <span >Email</span>
+                <span>Email</span>
               </div>
               <input
                 type="email"
@@ -52,7 +91,7 @@ const Login = () => {
             </div>
             <div className="form-control">
               <div>
-                <span >Password</span>
+                <span>Password</span>
               </div>
               <input
                 type="password"
