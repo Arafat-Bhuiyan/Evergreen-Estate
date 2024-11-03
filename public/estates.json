@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "image": "../src/assets/card_images/id-1.jpg",
+    "estate_title": "Luxury Family Home",
+    "segment_name": "Residential",
+    "description": "A luxurious family home with modern amenities, spacious rooms, and a beautiful garden.",
+    "price": "$500,000",
+    "status": "sale",
+    "area": "2000 sq ft",
+    "location": "Los Angeles, CA",
+    "facilities": [
+      "living room",
+      "swimming pool",
+      "kitchen",
+      "garage",
+      "backyard"
+    ]
+  },
+  {
+    "id": 2,
+    "image": "../src/assets/card_images/id-2.jpg",
+    "estate_title": "Downtown Apartment",
+    "segment_name": "Apartment",
+    "description": "A stylish apartment located in the heart of downtown with easy access to amenities and public transport.",
+    "price": "$2,000/month",
+    "status": "rent",
+    "area": "1200 sq ft",
+    "location": "New York, NY",
+    "facilities": ["living room", "kitchen", "gym", "balcony"]
+  },
+  {
+    "id": 3,
+    "image": "../src/assets/card_images/id-3.jpg",
+    "estate_title": "Beachside Villa",
+    "segment_name": "Vacation Rental",
+    "description": "A beautiful villa with beach access, perfect for vacation getaways.",
+    "price": "$750,000",
+    "status": "sale",
+    "area": "3000 sq ft",
+    "location": "Miami, FL",
+    "facilities": [
+      "living room",
+      "swimming pool",
+      "kitchen",
+      "terrace",
+      "garden"
+    ]
+  },
+  {
+    "id": 4,
+    "image": "../src/assets/card_images/id-4.jpg",
+    "estate_title": "Modern Condo",
+    "segment_name": "Condominium",
+    "description": "A modern condo with all essential amenities and a stunning city view.",
+    "price": "$1,500/month",
+    "status": "rent",
+    "area": "900 sq ft",
+    "location": "Chicago, IL",
+    "facilities": ["living room", "kitchen", "gym", "parking"]
+  },
+  {
+    "id": 5,
+    "image": "../src/assets/card_images/id-5.jpg",
+    "estate_title": "Suburban Mansion",
+    "segment_name": "Residential",
+    "description": "A large mansion in a peaceful suburban area with a private garden and pool.",
+    "price": "$1,200,000",
+    "status": "sale",
+    "area": "4500 sq ft",
+    "location": "Dallas, TX",
+    "facilities": [
+      "living room",
+      "swimming pool",
+      "kitchen",
+      "garage",
+      "garden"
+    ]
+  },
+  {
+    "id": 6,
+    "image": "../src/assets/card_images/id-6.jpg",
+    "estate_title": "Penthouse Suite",
+    "segment_name": "Apartment",
+    "description": "A luxury penthouse suite with panoramic views of the city skyline.",
+    "price": "$3,000/month",
+    "status": "rent",
+    "area": "1800 sq ft",
+    "location": "San Francisco, CA",
+    "facilities": ["living room", "kitchen", "gym", "balcony", "roof terrace"]
+  },
+  {
+    "id": 7,
+    "image": "../src/assets/card_images/id-7.jpg",
+    "estate_title": "Rustic Cabin",
+    "segment_name": "Vacation Rental",
+    "description": "A charming rustic cabin surrounded by nature, perfect for a peaceful retreat.",
+    "price": "$300,000",
+    "status": "sale",
+    "area": "1000 sq ft",
+    "location": "Aspen, CO",
+    "facilities": ["living room", "kitchen", "fireplace", "deck"]
+  },
+  {
+    "id": 8,
+    "image": "../src/assets/card_images/id-8.jpg",
+    "estate_title": "Countryside Bungalow",
+    "segment_name": "Residential",
+    "description": "A cozy bungalow in the countryside with a large yard and outdoor seating area.",
+    "price": "$250,000",
+    "status": "sale",
+    "area": "1500 sq ft",
+    "location": "Nashville, TN",
+    "facilities": ["living room", "kitchen", "yard", "patio"]
+  },
+  {
+    "id": 9,
+    "image": "../src/assets/card_images/id-9.jpg",
+    "estate_title": "Lakefront Cottage",
+    "segment_name": "Vacation Rental",
+    "description": "A quaint cottage with lakefront access, perfect for fishing and relaxing weekends.",
+    "price": "$200,000",
+    "status": "sale",
+    "area": "800 sq ft",
+    "location": "Lake Tahoe, CA",
+    "facilities": ["living room", "kitchen", "deck", "boat dock"]
+  }
+]
